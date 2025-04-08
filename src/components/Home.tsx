@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Home: React.FC = () => {
-  console.log(`Home component rendered at ${new Date().toLocaleTimeString()}`)
   return (
     <div>
+      <title>Recently | Home</title>
       <h1>Hello world</h1>
     </div>
   )

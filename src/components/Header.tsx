@@ -4,7 +4,6 @@ import '../styles/Header.css'
 import { NavContext } from '../context/NavContext'
 
 const Header: React.FC = () => {
-  console.log(`Header component rendered at ${new Date().toLocaleTimeString()}`)
   return (
     <header>
       <h1>My Application</h1>
@@ -19,7 +18,6 @@ type NavItem = {
 }
 
 const NavBar: React.FC = memo(() => {
-  console.log(`NavBar component rendered at ${new Date().toLocaleTimeString()}`)
   const navItems: NavItem[] = [
     {
       id: 1,

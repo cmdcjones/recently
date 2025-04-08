@@ -5,7 +5,6 @@ import Home from './Home'
 import Counter from './Counter'
 
 const Body: React.FC = memo(() => {
-  console.log(`Body component rendered at ${new Date().toLocaleTimeString()}`)
   const { currentTab } = useContext(NavContext)
   const [count, setCount] = useState(0)
   const renderTab = (key: NavTitle) => {
